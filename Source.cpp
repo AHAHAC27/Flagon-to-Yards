@@ -6,11 +6,11 @@ int tranFL(int flagon)
 int main()
 {
 	int flagon;
-	setlocale(LC_ALL, "rus");
-	std::cout << "Введите количество флагонов" << std::endl;
+	std::cout << "Enter number flagon: ";
 	std::cin >> flagon;
+	std::cout << std::endl;
 	int yards = tranFL(flagon);
-	std::cout << "Количество ярдов: " << yards << std::endl;
+	std::cout << "Result: " << yards << std::endl;
 	system("pause");
 		return 0;
 }
