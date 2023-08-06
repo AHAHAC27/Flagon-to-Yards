@@ -1,7 +1,7 @@
 #include <iostream>
 int tranFL(int flagon)
 {
-	return 220 * flagon;;
+	return 220 * flagon;
 }
 int main()
 {
